@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/outdoors",
+  "sprite": "http://mapbox.github.io/mapbox-gl-styles/sprites/outdoors",
   "glyphs": "mapbox://fontstack/{fontstack}/{range}.pbf",
   "constants": {
     "@land": "rgb(244,239,225)",

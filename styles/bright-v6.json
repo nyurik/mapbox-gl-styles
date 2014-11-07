@@ -130,7 +130,7 @@
       "maxzoom": 15
     }
   },
-  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/bright",
+  "sprite": "http://mapbox.github.io/mapbox-gl-styles/sprites/bright",
   "glyphs": "mapbox://fontstack/{fontstack}/{range}.pbf",
   "layers": [{
     "id": "background",

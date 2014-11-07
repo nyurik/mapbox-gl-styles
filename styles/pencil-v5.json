@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/pencil",
+  "sprite": "http://mapbox.github.io/mapbox-gl-styles/sprites/pencil",
   "glyphs": "mapbox://fontstack/{fontstack}/{range}.pbf",
   "constants": {
     "@land": "rgba(0,0,0,0)",
