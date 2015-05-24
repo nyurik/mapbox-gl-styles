@@ -46,20 +46,19 @@
   "sources": {
     "mapbox": {
       "type": "vector",
-      "url": "mapbox://mapbox.mapbox-streets-v6"
+      "tiles": ["/v1/{z}/{x}/{y}.vector.pbf"]
     },
     "satellite": {
       "type": "raster",
-      "url": "mapbox://mapbox.satellite",
-      "tileSize": 256
+      "tiles": ["/r/{z}/{x}/{y}.vector.pbf"]
     },
     "Mapbox Terrain V2": {
-      "type": "vector",
-      "url": "mapbox://mapbox.mapbox-terrain-v2"
+      "tiles": ["/v1/{z}/{x}/{y}.vector.pbf"],
+      "type": "vector"
     }
   },
-  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/bright",
-  "glyphs": "mapbox://fontstack/{fontstack}/{range}.pbf",
+  "sprite": "/static/mapbox-gl-styles/sprites/bright",
+  "glyphs": "/static/fontstack/{fontstack}/{range}.pbf",
   "layers": [{
     "id": "background",
     "type": "background",

@@ -26,11 +26,11 @@
   "sources": {
     "mapbox": {
       "type": "vector",
-      "url": "mapbox://mapbox.mapbox-streets-v6"
+      "tiles": ["/v1/{z}/{x}/{y}.vector.pbf"]
     }
   },
-  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/sprite",
-  "glyphs": "mapbox://fontstack/{fontstack}/{range}.pbf",
+  "sprite": "/static/mapbox-gl-styles/sprites/sprite",
+  "glyphs": "/static/fontstack/{fontstack}/{range}.pbf",
   "layers": [{
     "id": "background",
     "type": "background",

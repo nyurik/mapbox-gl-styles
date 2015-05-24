@@ -1,4 +1,4 @@
-{
+  {
   "version": 7,
   "name": "Bright",
   "constants": {
@@ -116,11 +116,11 @@
   "sources": {
     "mapbox": {
       "type": "vector",
-      "url": "mapbox://mapbox.mapbox-streets-v6"
+      "tiles": ["/v1/{z}/{x}/{y}.vector.pbf"]
     }
   },
-  "sprite": "https://www.mapbox.com/mapbox-gl-styles/sprites/bright",
-  "glyphs": "mapbox://fontstack/{fontstack}/{range}.pbf",
+  "sprite": "/static/mapbox-gl-styles/sprites/bright",
+  "glyphs": "/static/fontstack/{fontstack}/{range}.pbf",
   "layers": [{
     "id": "background",
     "type": "background",
